@@ -65,7 +65,7 @@ or
 make byname
 ```
 
-4. **Monitor the browser's activity**: Open Vinagre and connect to `localhost:5900`. The password is `secret`. Alternatively, you can use the command:
+4. **Monitor the browser's activity**: Open Vinagre and connect to `localhost:5901`. The password is `secret`. Alternatively, you can use the command:
 
 ```bash
 make view

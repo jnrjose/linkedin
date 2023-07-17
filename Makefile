@@ -4,7 +4,7 @@ help:
 	@perl -nle'print $& if m{^[a-zA-Z_-]+:.*?## .*$$}' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-25s\033[0m %s\n", $$1, $$2}'
 
 view: ## view the Selenium browser's activity
-	vinagre localhost:5900
+	vinagre localhost:5901
 
 companies: build ## run the 'companies' Scrapy spider
 	docker-compose up scrapy_companies
